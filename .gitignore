@@ -1,0 +1,26 @@
+# Compilados ##########
+*.o
+#######################
+
+# Temporales ##########
+*.kate-swp
+serializa.dat
+ejecutables
+#######################
+
+# Desarrollo interno ##
+*.jpg
+*.png
+.megaignore
+CarpetaOrigen
+CarpetaServidor
+doxygen
+funcinamientoDiscloud.txt
+HistorialAvances.txt
+historialDiscloudC.txt
+TAREAS.txt
+#######################
+
+# ficheros de pruebas #
+zpruebas*
+#######################
