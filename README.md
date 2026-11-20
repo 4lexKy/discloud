@@ -1,4 +1,4 @@
-[Versión 0.7.1]: #
+[Versión 0.7.2]: #
 # discloud - Nube distribuida privada de código abierto
 
 Discloud ([discloud.es](https://discloud.es)) es una nube distribuida, autohosteada, independiente y de código abierto. Estas características la hacen única:
@@ -9,7 +9,7 @@ Discloud ([discloud.es](https://discloud.es)) es una nube distribuida, autohoste
 
 ---
 ## Estado del proyecto
-[En desarrollo]
+Estamos en los inicios del desarrollo del proyecto. Se ha dedicado mucho tiempo y esfuerzo para que todo funcione lo mejor posible. Actualmente se dispone de una muy buena base sobre la que seguir construyendo esta nube única
 
 ### Ficheros
 - discloud.cpp: Fichero principal del proyecto (servidor)
@@ -26,15 +26,30 @@ Discloud ([discloud.es](https://discloud.es)) es una nube distribuida, autohoste
 
 ---
 ## Instalación
-[en proceso]
+En el estado actual del proyecto no necesita instalación
 
 ### Lenguaje
-- C/C++
+- `C/C++`
+- `Make`
 
 ### Dependencias
-Sí, tiene dependencias de:
+Sí, tiene dependencias de las siguientes librerías:
 
-[en proceso]
+- fstream
+- iostream
+- string
+- cstring
+- cstdio
+- vector
+- experimental/filesystem
+- chrono
+- thread
+- fcntl.h
+- unistd.h
+- sys/types.h
+- sys/stat.h
+- dirent.h
+- ctime
 
 ### Sistemas operativos compatibles
 Probado en:
@@ -42,17 +57,7 @@ Probado en:
 
 ---
 ## Uso
-[en proceso]
-
----
-## Recomendación
-Para un uso mas ágil se puede crear una carpeta para script de forma que todos los que se añadan se puedan llamar desde la propia terminal como cualquier otro comando.
-
-Esto se puede conseguir añadiendo a ~/.bashrc la línea:
-
-```bash
-    export PATH=$PATH:/ruta/a/carpeta/con/scripts
-```
+[próximamente]
 
 ---
 ## Licencia
